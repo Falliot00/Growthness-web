@@ -2,3 +2,51 @@
   height: 500px;
   width: 1000px;
 }*/
+.btn-primary {
+  background-color: #e63d28;
+  border-color: #e63d28;
+  font-size: 25px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.btn-primary:hover {
+  background-color: #bd3321;
+  border-color: #bd3321;
+  scale: 1.1;
+}
+p {
+  font-size: 18px;
+}
+
+.embed-responsive-item {
+  height: 45vh;
+}
+
+.colorido {
+  color: #fb923c;
+}
+
+.video {
+  width: 1275px;
+  height: 717px;
+}
+@media (max-width: 768px) {
+  .video {
+    width: 470px;
+    height: 264px; /* Cambia el valor para dispositivos móviles */
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .video {
+    width: 730px;
+    height: 410px; /* Cambia el valor para tablets */
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1900px) {
+  .video {
+    width: 930px;
+    height: 523px; /* Cambia el valor para pc */
+  }
+}

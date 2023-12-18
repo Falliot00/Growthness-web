@@ -1,0 +1,28 @@
+.btn-primary {
+  background-color: #ff8826;
+  border-color: #ff8826;
+  font-size: 25px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.btn-primary:hover {
+  background-color: #ff8826bd;
+  border-color: #ff8826bd;
+  scale: 1.1;
+}
+
+h2 {
+  margin-top: 48px;
+  margin-bottom: 24px;
+  font-size: 50px;
+  color: #fb923c;
+}
+
+p {
+  font-size: 18px;
+}
+
+::marker {
+  color: #fdba74;
+}

@@ -12,6 +12,7 @@ import { MetodoComponent } from './components/metodo/metodo.component';
 import { FaqComponent } from './components/faq/faq.component';
 import { AspiracionesComponent } from './components/aspiraciones/aspiraciones.component';
 import { HomeComponent } from './components/home/home.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { HomeComponent } from './components/home/home.component';
     MetodoComponent,
     FaqComponent,
     AspiracionesComponent,
-    HomeComponent
+    HomeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

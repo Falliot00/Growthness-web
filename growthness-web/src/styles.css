@@ -1,14 +1,32 @@
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-span {
-  color: #ffffff;
+@font-face {
+  font-family: "Proxima Nova";
+  src: url(./assets/font/proxima-nova-12.ttf);
 }
 
 body {
   scrollbar-gutter: stable;
+  color: #f5efe9;
+  font-family: "Proxima Nova";
+  /*background-color: #3d3d3d;*/
+  background-color: hsla(114, 0%, 6%, 1);
+  background-image: radial-gradient(
+      at 0% 0%,
+      hsla(40, 25%, 25%, 0.5) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 100% 180%, hsla(37, 48%, 51%, 0.5) 0px, transparent 50%);
+}
+
+body::-webkit-scrollbar {
+  width: 0.5rem;
+  background: #090e16;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #cccccc;
+  border-radius: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #090e16;
 }

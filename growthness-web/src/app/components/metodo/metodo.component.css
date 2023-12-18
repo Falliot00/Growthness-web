@@ -1,0 +1,32 @@
+h2 {
+  margin-top: 48px;
+  margin-bottom: 24px;
+  font-size: 50px;
+  color: #fb923c;
+}
+
+h3 {
+  color: #fb723c;
+  margin-top: 48px;
+  /*width: 15%;*/
+  margin-bottom: 0px;
+}
+
+p {
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+
+.texto {
+  width: 25%;
+}
+@media (max-width: 820px) {
+  .texto {
+    width: 100%; /* Cambia el valor para dispositivos móviles */
+  }
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
