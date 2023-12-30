@@ -1,7 +1,3 @@
-/*.video .embed-responsive-item {
-  height: 500px;
-  width: 1000px;
-}*/
 .btn-primary {
   background-color: #e63d28;
   border-color: #e63d28;
@@ -15,38 +11,108 @@
   border-color: #bd3321;
   scale: 1.1;
 }
+
 p {
   font-size: 18px;
-}
-
-.embed-responsive-item {
-  height: 45vh;
+  font-family: "Proxima Nova Boldit";
 }
 
 .colorido {
-  color: #fb923c;
+  line-height: 0;
+  color: #ff4500;
+  font-family: "Proxima Nova";
+  font-size: 1.3em;
+}
+.parrafo_disponibilidad {
+  font-family: "Proxima Nova Boldit";
 }
 
-.video {
+.section_video {
+  background-image: url("../../../assets/fondos/fondo-nashex.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  /*padding-top: 1em;
+  padding-bottom: 1em;*/
+  position: relative;
+  padding-top: 0em;
+  padding-bottom: 2em;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 90%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+/*.video {
   width: 1275px;
   height: 717px;
-}
-@media (max-width: 768px) {
+}*/
+/* Dispositivos móviles pequeños */
+@media (max-width: 320px) {
   .video {
-    width: 470px;
-    height: 264px; /* Cambia el valor para dispositivos móviles */
-  }
-}
-@media (min-width: 768px) and (max-width: 992px) {
-  .video {
-    width: 730px;
-    height: 410px; /* Cambia el valor para tablets */
+    width: 100%;
+    height: 10rem;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1900px) {
+/* Dispositivos móviles medianos */
+@media (min-width: 321px) and (max-width: 375px) {
   .video {
-    width: 930px;
-    height: 523px; /* Cambia el valor para pc */
+    width: 100%;
+    height: 11.75rem;
+  }
+}
+
+/* Dispositivos móviles grandes */
+@media (min-width: 376px) and (max-width: 425px) {
+  .video {
+    width: 100%;
+    /*height: 12.9rem;*/
+    height: 12.9rem;
+  }
+}
+
+/* Tablets */
+@media (min-width: 426px) and (max-width: 768px) {
+  .video {
+    width: 50%;
+    height: 12.75rem;
+  }
+}
+
+/* Laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .video {
+    width: 50%;
+    height: 17.2rem;
+  }
+}
+
+/* Laptops grandes */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .video {
+    width: 50%;
+    height: 25rem;
+  }
+}
+
+/* Pantallas grandes y 4K */
+@media (min-width: 1441px) and (max-width: 2560px) {
+  .video {
+    width: 50%;
+    height: 34rem;
   }
 }

@@ -1,8 +1,18 @@
-.section_aspiraciones {
+.caminos {
+  background-color: #21252985;
+  padding: 0.5em;
+}
+
+.section_caminos {
+  /*background-image: url("../../../assets/fondos/PORTADA-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;*/
   position: relative;
   padding-top: 1em;
   padding-bottom: 1em;
-  background-blend-mode: multiply; /*para poder opacar la imagen*/
+  background-blend-mode: multiply;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -14,10 +24,10 @@
   height: 100%;
   background-image: linear-gradient(
     180deg,
-    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.5) 0%,
     /*color transparente*/ rgba(255, 255, 255, 0) 10%,
     /*color transparente*/ rgba(255, 255, 255, 0) 90%,
-    rgba(0, 0, 0, 1) 100%
+    rgba(0, 0, 0, 0.5) 100%
   ); /*para tener un efecto difuminado // pero el problema es que me hace la letra mas oscura*/
 }
 
@@ -32,32 +42,14 @@ p {
   font-family: "Proxima Nova Boldit";
 }
 
-.aspiraciones {
-  background-color: #21252985;
-  padding: 0.5em;
-  padding-bottom: 0;
-}
-svg {
-  margin-top: 0.2em;
-}
-ul li p {
-  margin: 0;
-}
-ul li div {
-  padding-bottom: 0.5em;
-  padding-top: 0.5em;
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  float: right;
+  shape-outside: circle(50%);
 }
 
-.btn-primary {
-  background-color: #e63d28;
-  border-color: #e63d28;
-  font-size: 25px;
-  margin-top: 8px;
-  margin-bottom: 16px;
-}
-
-.btn-primary:hover {
-  background-color: #bd3321;
-  border-color: #bd3321;
-  scale: 1.1;
+.primero {
+  padding-top: 2em;
 }

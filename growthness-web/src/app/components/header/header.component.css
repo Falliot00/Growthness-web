@@ -34,13 +34,18 @@
 
 header {
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 0px;
+  left: 0px;
   width: 100%;
   backdrop-filter: blur(20px);
   /*color: #fff;  Cambia esto al color de texto deseado */
   z-index: 100; /* Asegura que esté por encima de otros elementos */
-  padding: 0px 24px;
+  /*padding: 0px 24px;*/
+}
+
+img {
+  width: 50%;
+  height: 50%;
 }
 
 span,
@@ -61,7 +66,7 @@ a {
   -moz-transform: scale(1.1);
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
-  background-color: hsla(37, 48%, 51%, 0.5);
+  background-color: #ff440094;
   color: #ffffff;
   border-radius: 5px;
   -webkit-border-radius: 5px;

@@ -1,4 +1,9 @@
-.section_metodo {
+.section_bonus {
+  background-image: url("../../../assets/fondos/fondo3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   position: relative;
   padding-top: 1em;
   padding-bottom: 1em;
@@ -15,71 +20,32 @@
   background-image: linear-gradient(
     180deg,
     rgba(0, 0, 0, 1) 0%,
-    /*color transparente*/ rgba(255, 255, 255, 0) 5%,
+    /*color transparente*/ rgba(255, 255, 255, 0) 3%,
     /*color transparente*/ rgba(255, 255, 255, 0) 95%,
     rgba(0, 0, 0, 1) 100%
   ); /*para tener un efecto difuminado // pero el problema es que me hace la letra mas oscura*/
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 3em;
   padding-top: 0.5em;
   color: #ff4500;
 }
 
-h3 {
-  font-size: 2em;
-  color: #fb723c;
-  /*margin-top: 2em;*/
-  /*width: 15%;*/
-  margin-bottom: 0px;
+img {
+  width: 350px;
+  height: 350px;
 }
 
-p {
-  font-size: 1em;
-  font-family: "Proxima Nova Boldit";
-}
-
-.bloques {
+.imagen {
   margin-top: 2em;
   background-color: #343a4185;
   border: 0.15em solid;
-  border-color: #16191b;
+  border-color: #2c31364d;
   padding: 0;
 }
-@media (min-width: 1024px) {
-  .bloques {
-    margin: 0.5em;
-  }
-}
 
-img {
-  height: 200px;
-  width: 200px;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-.bloques p {
-  visibility: hidden;
-  /*display: none;*/
-}
-
-.bloques:hover p {
-  visibility: visible;
-  /*display: block;*/
-  animation: fadeIn 0.5s ease-in-out;
-  -webkit-animation: fadeIn 0.5s ease-in-out;
-}
-
-.bloques:hover {
+.imagen:hover {
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
   transform: scale(1.03);
   -webkit-transform: scale(1.03);

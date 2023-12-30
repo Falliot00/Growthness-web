@@ -13,6 +13,8 @@ import { FaqComponent } from './components/faq/faq.component';
 import { AspiracionesComponent } from './components/aspiraciones/aspiraciones.component';
 import { HomeComponent } from './components/home/home.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { BonusComponent } from './components/bonus/bonus.component';
+import { CaminosComponent } from './components/caminos/caminos.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { FooterComponent } from './components/footer/footer.component';
     FaqComponent,
     AspiracionesComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    BonusComponent,
+    CaminosComponent
   ],
   imports: [
     BrowserModule,

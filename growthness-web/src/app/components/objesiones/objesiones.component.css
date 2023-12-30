@@ -1,28 +1,79 @@
+h2 {
+  font-size: 2em;
+  padding-top: 0.5em;
+  color: #ff4500;
+}
+.parati {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  line-height: 1.2em;
+  font-size: 1.3em;
+  font-family: "Proxima Nova Boldit";
+}
+.colorido {
+  color: #ff4500;
+}
+.cumples {
+  font-size: 1.1em;
+}
+
+svg {
+  margin-top: 0.25em;
+}
+
+ul li p {
+  margin: 0;
+}
+ul li div {
+  padding: 0.5em;
+}
+
+.objesiones {
+  background-color: #21252985;
+  padding: 0.5em;
+}
+
+.section_objesiones {
+  background-image: url("../../../assets/fondos/PORTADA-1_vertical.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-blend-mode: multiply; /*para poder opacar la imagen*/
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    /*color transparente*/ rgba(255, 255, 255, 0) 3%,
+    /*color transparente*/ rgba(255, 255, 255, 0) 90%,
+    rgba(0, 0, 0, 0.5) 100%
+  ); /*para tener un efecto difuminado // pero el problema es que me hace la letra mas oscura*/
+}
+
 .btn-primary {
-  background-color: #ff8826;
-  border-color: #ff8826;
+  background-color: #e63d28;
+  border-color: #e63d28;
   font-size: 25px;
   margin-top: 16px;
   margin-bottom: 16px;
 }
 
 .btn-primary:hover {
-  background-color: #ff8826bd;
-  border-color: #ff8826bd;
+  background-color: #bd3321;
+  border-color: #bd3321;
   scale: 1.1;
-}
-
-h2 {
-  margin-top: 48px;
-  margin-bottom: 24px;
-  font-size: 50px;
-  color: #fb923c;
-}
-
-p {
-  font-size: 18px;
-}
-
-::marker {
-  color: #fdba74;
 }
