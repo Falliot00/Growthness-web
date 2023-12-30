@@ -1,5 +1,5 @@
 .section_bonus {
-  background-image: url("../../../assets/fondos/fondo3.png");
+  background-image: url("../../../assets/fondos/pil_compu_vertical.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7,11 +7,11 @@
   position: relative;
   padding-top: 1em;
   padding-bottom: 1em;
-  background-blend-mode: multiply; /*para poder opacar la imagen*/
+  background-blend-mode: multiply;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.overlay {
+/*.overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -20,28 +20,43 @@
   background-image: linear-gradient(
     180deg,
     rgba(0, 0, 0, 1) 0%,
-    /*color transparente*/ rgba(255, 255, 255, 0) 3%,
-    /*color transparente*/ rgba(255, 255, 255, 0) 95%,
+     rgba(255, 255, 255, 0) 1.5%,
+     rgba(255, 255, 255, 0) 95%,
     rgba(0, 0, 0, 1) 100%
-  ); /*para tener un efecto difuminado // pero el problema es que me hace la letra mas oscura*/
-}
+  ); 
+}*/
 
 h2 {
   font-size: 3em;
-  padding-top: 0.5em;
+  margin: 0;
   color: #ff4500;
 }
 
 img {
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
 }
 
-.imagen {
+/*.imagen {
   margin-top: 2em;
   background-color: #343a4185;
   border: 0.15em solid;
   border-color: #2c31364d;
+  padding: 0;
+}*/
+
+.imagen {
+  margin-top: 2em;
+  background-color: hsla(0, 0%, 100%, 0.5);
+  border: 0.15em solid;
+  border-color: #5d5d5e4d;
+  padding: 0;
+}
+.imagen1 {
+  margin-top: 1em;
+  background-color: hsla(0, 0%, 100%, 0.5);
+  border: 0.15em solid;
+  border-color: #5d5d5e4d;
   padding: 0;
 }
 
