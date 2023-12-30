@@ -1,17 +1,36 @@
-.section_bonus {
-  background-image: url("../../../assets/fondos/pil_compu_vertical.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  background-blend-mode: multiply;
-  background-color: rgba(0, 0, 0, 0.5);
+/*PARA DISPOSITIVOS GRANDES*/
+@media (min-width: 769px) {
+  .section_bonus {
+    background-image: url("../../../assets/fondos/fondo3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
 }
 
-/*.overlay {
+/*PARA DISPOSITIVOS HASTA MEDIANOS*/
+@media (max-width: 768px) {
+  .section_bonus {
+    background-image: url("../../../assets/fondos/pil_compu_vertical.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+.overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -20,11 +39,11 @@
   background-image: linear-gradient(
     180deg,
     rgba(0, 0, 0, 1) 0%,
-     rgba(255, 255, 255, 0) 1.5%,
-     rgba(255, 255, 255, 0) 95%,
+    rgba(255, 255, 255, 0) 1.5%,
+    rgba(255, 255, 255, 0) 95%,
     rgba(0, 0, 0, 1) 100%
-  ); 
-}*/
+  );
+}
 
 h2 {
   font-size: 3em;
@@ -46,14 +65,8 @@ img {
 }*/
 
 .imagen {
-  margin-top: 2em;
-  background-color: hsla(0, 0%, 100%, 0.5);
-  border: 0.15em solid;
-  border-color: #5d5d5e4d;
-  padding: 0;
-}
-.imagen1 {
   margin-top: 1em;
+  margin-bottom: 1em;
   background-color: hsla(0, 0%, 100%, 0.5);
   border: 0.15em solid;
   border-color: #5d5d5e4d;
