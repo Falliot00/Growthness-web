@@ -75,15 +75,15 @@ img {
 }
 
 .bloques p {
-  visibility: hidden;
+  /*visibility: hidden;*/
   /*display: none;*/
 }
 
 .bloques:hover p {
-  visibility: visible;
+  /*visibility: visible;*/
   /*display: block;*/
-  animation: fadeIn 0.5s ease-in-out;
-  -webkit-animation: fadeIn 0.5s ease-in-out;
+  /*animation: fadeIn 0.5s ease-in-out;
+  -webkit-animation: fadeIn 0.5s ease-in-out;*/
 }
 
 .bloques:hover {
